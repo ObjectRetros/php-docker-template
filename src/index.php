@@ -17,3 +17,13 @@ try {
     echo 'Error: ' . $t->getMessage();
     echo '<br />';
 }
+
+?>
+
+<!doctype html>
+<html lang="en">
+<?php include '../src/partials/header.php'; ?>
+<body>
+<h2 class="text-xl font-bold">Hello world</h2>
+</body>
+</html>
